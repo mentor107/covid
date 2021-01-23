@@ -16,3 +16,80 @@ a:visited {
   max-width: 1260px;
   margin: 0 auto;
 }
+
+/*Polonik Vlad*/
+.what_do {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.what_do .title{
+    margin: 0 auto;
+    max-width: 650px;
+    text-align: center;
+
+}
+.what_do .sub_title{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    color: #FA5652;
+}
+.what_do .main_title{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 119%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 25px;
+}
+.what_do .text{
+    font-family: Gelion;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 215%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-top: 30px;
+}
+.what_do .block{
+    margin-top: 70px;
+    padding-left: 115px;
+    padding-right: 130px;
+}
+.what_do .punkt{
+    display: flex;
+    margin-bottom: -16px;
+}
+.what_do .punkt:nth-child(odd) div{
+    order: 2;
+
+}
+
+.what_do .number{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+    background: #FA5652;
+    opacity: 0.15;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.what_do .punkt img{
+    max-height: 556px;
+}
+
+.free{
+    height: 250px;
+}
